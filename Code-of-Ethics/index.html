@@ -2,12 +2,13 @@
 <html>
   <head>
     <meta charset="UTF-8" lang="en-US">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code of Ethics</title>
     <link rel="icon" type="image/x-icon" href="/SCPF/images/favicon.webp">
     <style>
       .left-header {
         width: 90%;
-        padding-top: 3%
+        padding-top: 3%;
         padding-bottom: 3%;
         margin: 5%;
         box-shadow: none;
@@ -32,37 +33,50 @@
   <body style="height: auto; margin: 0; padding: 0; overflow-y: auto;">
     <!--Scroll Bar-->
     <div style="position: fixed; background-color: black; width: 20%; height: 100%;">
-      <a href="/SCPF/Code-of-Ethics">
+      <a href="#Top">
         <img src="/SCPF/images/favicon.webp" alt="Ethics Committee Logo" style="padding: 25%; padding-bottom: 0%; padding-top: 5%; width: 50%; height: auto;">
       </a>
       <h1 style="color: whitesmoke; text-align: center; padding-bottom: 0; margin-bottom: 0;">Code of Ethics</h1>
       <div style="text-align: center;"><a style="color: whitesmoke; display: inline-block;" href="https://discord.gg/gJwwvX4Uah">The Foundation</a></div>
       <br>
+      <button onclick="scrollToBookmark('Purpose')" class="left-header">Code of Ethics Explained</button>
       <button onclick="scrollToBookmark('S1')" class="left-header">Section 1 "Core Guidelines"</button>
       <button onclick="scrollToBookmark('S2')" class="left-header">Section 2 "Department Dossier"</button>
-      <button onclick="scrollToBookmark('S3')" class="left-header">Section 3 "Core Guidelines"</button>
-      <button onclick="scrollToBookmark('S4')" class="left-header">Section 4 "Department Dossier"</button>
-      <button onclick="scrollToBookmark('S5')" class="left-header">Section 5 "Core Guidelines"</button>
-      <button onclick="scrollToBookmark('S6')" class="left-header">Section 6 "Department Dossier"</button>
+      <button onclick="scrollToBookmark('S3')" class="left-header">Section 3 "On-Site Protocols"</button>
+      <button onclick="scrollToBookmark('S4')" class="left-header">Section 4 "Sector Access"</button>
+      <button onclick="scrollToBookmark('S5')" class="left-header">Section 5 "Peer Treatment"</button>
+      <button onclick="scrollToBookmark('S6')" class="left-header">Section 6 "Procedures"</button>
       <button onclick="scrollToBookmark('S7')" class="left-header">Section 7 "Core Guidelines"</button>
       <button onclick="scrollToBookmark('S8')" class="left-header">Section 8 "Department Dossier"</button>
-      <button onclick="scrollToBookmark('L')" class="left-header">Legitimacy</button>
+      <button onclick="scrollToBookmark('Legitimacy')" class="left-header">Legitimacy</button>
     </div>
 
     <!--Front Page-->
     <div style="position: fixed; height: 100%; width: 80%; margin-left: 20%; overflow-y: auto;">
-      <img src="https://tr.rbxcdn.com/a8bb6ee16fa9556cc3febba6a5f6182b/768/432/Image/Webp" style="height: 98%; width: 98%; margin: 1%;">
-      <h1 class="front-headers">wsp gagng</h1>
-      <h1 class="front-headers">wsp gagng</h1>
-      <h1 class="front-headers">wsp gagng</h1>
-      <h1 class="front-headers">wsp gagng</h1>
+      <h1 class="front-headers" id="Purpose">Code of Ethics</h1>
+      <h1 class="front-headers" id="S1">wsp gagng</h1>
+      <h1 class="front-headers" id="S2">wsp gagng2</h1>
+      <h1 class="front-headers" id="S3">wsp gagng3</h1>
+      <h1 class="front-headers" id="S4">wsp gagng4</h1>
+      <h1 class="front-headers" id="S1">wsp gagng</h1>
+      <h1 class="front-headers" id="S2">wsp gagng2</h1>
+      <h1 class="front-headers" id="S3">wsp gagng3</h1>
+      <h1 class="front-headers" id="S4">wsp gagng4</h1>
+      <h1 class="front-headers" id="S1">wsp gagng</h1>
+      <h1 class="front-headers" id="S2">wsp gagng2</h1>
+      <h1 class="front-headers" id="S3">wsp gagng3</h1>
+      <h1 class="front-headers" id="S4">wsp gagng4</h1>
+      <h1 class="front-headers" id="S1">wsp gagng</h1>
+      <h1 class="front-headers" id="S2">wsp gagng2</h1>
+      <h1 class="front-headers" id="S3">wsp gagng3</h1>
+      <h1 class="front-headers" id="S4">wsp gagng4</h1>          
     </div>
 
     <script>
       function scrollToBookmark(bookmarkId) {
         var element = document.getElementById(bookmarkId);
         if (element) {
-          element.scrollIntoView({behavior: 'smooth '});
+          element.scrollIntoView({behavior: 'smooth'});
         }
       }
     </script>
